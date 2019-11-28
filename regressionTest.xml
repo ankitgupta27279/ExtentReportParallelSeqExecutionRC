@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FULL Test REPORT" parallel="tests">
+	<test name="Chrome1">
+		<parameter name="deviceType" value="Desktop"></parameter>
+		<parameter name="platformName" value="Windows"></parameter>
+		<parameter name="platformVersion" value="7"></parameter>
+		<parameter name="deviceName" value="LocalMachine"></parameter>
+		<parameter name="remoteURL" value="http://chrome1.chrome.com/"></parameter>
+		<parameter name="browser" value="Chrome"></parameter>
+		<parameter name="reportName" value="ReportChromeTest"></parameter>
+		<classes>
+			<class name=""></class>
+		</classes>
+	</test>
+	<test name="Firefox1">
+		<parameter name="deviceType" value="Desktop"></parameter>
+		<parameter name="platformName" value="Windows"></parameter>
+		<parameter name="platformVersion" value="7"></parameter>
+		<parameter name="deviceName" value="LocalMachine"></parameter>
+		<parameter name="remoteURL" value="http://firefox1.firefox.com/"></parameter>
+		<parameter name="browser" value="Firefox"></parameter>
+		<parameter name="reportName" value="ReportFirefoxTest"></parameter>
+		<classes>
+			<class name=""></class>
+		</classes>
+	</test>
+</suite>

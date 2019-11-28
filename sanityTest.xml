@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sanity Test Report" parallel="tests">
+
+	<listeners>
+		<listener class-name="com.report.TestListeners"></listener>
+	</listeners>
+
+	<test name="Chrome1" parallel="false">
+		<parameter name="deviceType" value="Desktop"></parameter>
+		<parameter name="platformName" value="Windows"></parameter>
+		<parameter name="platformVersion" value="7"></parameter>
+		<parameter name="deviceName" value="LocalMachine"></parameter>
+		<parameter name="remoteURL" value="http://chrome1.chrome.com/"></parameter>
+		<parameter name="browser" value="Chrome"></parameter>
+		<parameter name="reportName" value="SanityTestReportChromeTest"></parameter>
+		<classes>
+			<class name="com.rippon.Class2Test"></class>
+			<class name="com.rippon.Class1Test"></class>
+		</classes>
+	</test>
+	<test name="Firefox1" parallel="false">
+		<parameter name="deviceType" value="Desktop"></parameter>
+		<parameter name="platformName" value="Windows"></parameter>
+		<parameter name="platformVersion" value="7"></parameter>
+		<parameter name="deviceName" value="LocalMachine"></parameter>
+		<parameter name="remoteURL" value="http://firefox1.firefox.com/"></parameter>
+		<parameter name="browser" value="Firefox"></parameter>
+		<parameter name="reportName" value="SanityTestReportFirefoxTest"></parameter>
+		<classes>
+			<class name="com.rippon.Class1Test"></class>
+			<class name="com.rippon.Class2Test"></class>
+		</classes>
+	</test>
+</suite>

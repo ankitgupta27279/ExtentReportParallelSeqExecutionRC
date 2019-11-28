@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FULL TEST REPORT">
+	<suite-files>
+		<suite-file path="./regressionTest.xml"></suite-file>
+		<suite-file path="./sanityTest.xml"></suite-file>
+		<suite-file path="./smokeTest.xml"></suite-file>
+	</suite-files>
+</suite>

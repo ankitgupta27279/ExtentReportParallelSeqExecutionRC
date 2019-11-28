@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Sanity Test Report (0)]" parallel="tests">
+  <parameter name="deviceType" value="Desktop"/>
+  <parameter name="reportName" value="SanityTestReportFirefoxTest"/>
+  <parameter name="platformVersion" value="7"/>
+  <parameter name="browser" value="Firefox"/>
+  <parameter name="remoteURL" value="http://firefox1.firefox.com/"/>
+  <parameter name="platformName" value="Windows"/>
+  <parameter name="deviceName" value="LocalMachine"/>
+  <listeners>
+    <listener class-name="com.report.TestListeners"/>
+  </listeners>
+  <test name="Chrome1(failed)">
+    <parameter name="deviceType" value="Desktop"/>
+    <parameter name="reportName" value="SanityTestReportChromeTest"/>
+    <parameter name="platformVersion" value="7"/>
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="remoteURL" value="http://chrome1.chrome.com/"/>
+    <parameter name="platformName" value="Windows"/>
+    <parameter name="deviceName" value="LocalMachine"/>
+    <classes>
+      <class name="com.rippon.Class2Test">
+        <methods>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="setExtentReport"/>
+          <include name="setExtentReport"/>
+          <include name="initSetUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.rippon.Class2Test -->
+      <class name="com.rippon.Class1Test">
+        <methods>
+          <include name="meth3"/>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="setExtentReport"/>
+          <include name="setExtentReport"/>
+          <include name="endAllReports"/>
+          <include name="skipTest"/>
+          <include name="initSetUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.rippon.Class1Test -->
+    </classes>
+  </test> <!-- Chrome1(failed) -->
+  <test name="Firefox1(failed)">
+    <parameter name="deviceType" value="Desktop"/>
+    <parameter name="reportName" value="SanityTestReportFirefoxTest"/>
+    <parameter name="platformVersion" value="7"/>
+    <parameter name="browser" value="Firefox"/>
+    <parameter name="remoteURL" value="http://firefox1.firefox.com/"/>
+    <parameter name="platformName" value="Windows"/>
+    <parameter name="deviceName" value="LocalMachine"/>
+    <classes>
+      <class name="com.rippon.Class2Test">
+        <methods>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="setExtentReport"/>
+          <include name="setExtentReport"/>
+          <include name="initSetUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.rippon.Class2Test -->
+      <class name="com.rippon.Class1Test">
+        <methods>
+          <include name="meth3"/>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="setExtentReport"/>
+          <include name="setExtentReport"/>
+          <include name="endAllReports"/>
+          <include name="skipTest"/>
+          <include name="initSetUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.rippon.Class1Test -->
+    </classes>
+  </test> <!-- Firefox1(failed) -->
+</suite> <!-- Failed suite [Sanity Test Report (0)] -->

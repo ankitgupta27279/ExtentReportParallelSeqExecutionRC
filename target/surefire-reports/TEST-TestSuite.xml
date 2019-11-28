@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="1.896" tests="20" errors="0" skipped="4" failures="4">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="surefire.suiteXmlFiles" value="smokeTest.xml,sanityTest.xml"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\workspace_2_mvn\ExtentReportLoggerParallel\target\test-classes;D:\workspace_2_mvn\ExtentReportLoggerParallel\target\classes;C:\Users\Ankit\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\Ankit\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\Ankit\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Ankit\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Ankit\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\Ankit\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\Ankit\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\Ankit\.m2\repository\org\testng\testng\6.9.9\testng-6.9.9.jar;C:\Users\Ankit\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\Ankit\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\Ankit\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;C:\Users\Ankit\.m2\repository\org\apache\ant\ant\1.7.0\ant-1.7.0.jar;C:\Users\Ankit\.m2\repository\org\apache\ant\ant-launcher\1.7.0\ant-launcher-1.7.0.jar;C:\Users\Ankit\.m2\repository\org\yaml\snakeyaml\1.15\snakeyaml-1.15.jar;C:\Users\Ankit\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_77\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Ankit\AppData\Local\Temp\surefire933980234345826072\surefirebooter3486716057073170083.jar C:\Users\Ankit\AppData\Local\Temp\surefire933980234345826072 2019-11-27T21-47-38_785-jvmRun1 surefire1508551572002345950tmp surefire_06340149364855460051tmp"/>
+    <property name="surefire.test.class.path" value="D:\workspace_2_mvn\ExtentReportLoggerParallel\target\test-classes;D:\workspace_2_mvn\ExtentReportLoggerParallel\target\classes;C:\Users\Ankit\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\Ankit\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\Ankit\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Ankit\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Ankit\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\Ankit\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\Ankit\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\Ankit\.m2\repository\org\testng\testng\6.9.9\testng-6.9.9.jar;C:\Users\Ankit\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\Ankit\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\Ankit\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;C:\Users\Ankit\.m2\repository\org\apache\ant\ant\1.7.0\ant-1.7.0.jar;C:\Users\Ankit\.m2\repository\org\apache\ant\ant-launcher\1.7.0\ant-launcher-1.7.0.jar;C:\Users\Ankit\.m2\repository\org\yaml\snakeyaml\1.15\snakeyaml-1.15.jar;C:\Users\Ankit\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Ankit"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_77\jre"/>
+    <property name="basedir" value="D:\workspace_2_mvn\ExtentReportLoggerParallel"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Ankit\AppData\Local\Temp\surefire933980234345826072\surefirebooter3486716057073170083.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_77\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_77\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_77-b03"/>
+    <property name="user.name" value="Ankit"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_77\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Ankit\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Ankit\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_77"/>
+    <property name="user.dir" value="D:\workspace_2_mvn\ExtentReportLoggerParallel"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_77\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\android\tools;C:\android\platform-tools;C:\Python36\Scripts\;C:\Python36;C:\Program Files\Java\jdk1.8.0_77\bin;C:\apache-maven-3.3.9\bin;C:\Users\Ankit\AppData\Local\Microsoft\WindowsApps;C:\Users\Ankit\AppData\Roaming\npm;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.77-b03"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_77\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="meth1" classname="com.rippon.Class2Test" time="0.004"/>
+  <testcase name="meth1" classname="com.rippon.Class2Test" time="0.003"/>
+  <testcase name="meth1" classname="com.rippon.Class2Test" time="0.009"/>
+  <testcase name="meth1" classname="com.rippon.Class2Test" time="0.002"/>
+  <testcase name="meth2" classname="com.rippon.Class1Test" time="0.005"/>
+  <testcase name="meth2" classname="com.rippon.Class1Test" time="0"/>
+  <testcase name="meth2" classname="com.rippon.Class1Test" time="0.009"/>
+  <testcase name="meth2" classname="com.rippon.Class1Test" time="0.001"/>
+  <testcase name="meth3" classname="com.rippon.Class1Test" time="0.012">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at com.rippon.Class1Test.meth3(Class1Test.java:17)
+</failure>
+    <system-out><![CDATA[****meth3
+]]></system-out>
+  </testcase>
+  <testcase name="meth3" classname="com.rippon.Class1Test" time="0.012">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at com.rippon.Class1Test.meth3(Class1Test.java:17)
+</failure>
+  </testcase>
+  <testcase name="meth3" classname="com.rippon.Class1Test" time="0">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at com.rippon.Class1Test.meth3(Class1Test.java:17)
+</failure>
+    <system-out><![CDATA[****meth3
+]]></system-out>
+  </testcase>
+  <testcase name="meth3" classname="com.rippon.Class1Test" time="0">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at com.rippon.Class1Test.meth3(Class1Test.java:17)
+</failure>
+    <system-out><![CDATA[****meth3
+]]></system-out>
+  </testcase>
+  <testcase name="meth4" classname="com.rippon.Class1Test" time="0.001"/>
+  <testcase name="meth4" classname="com.rippon.Class1Test" time="0"/>
+  <testcase name="meth4" classname="com.rippon.Class1Test" time="0"/>
+  <testcase name="meth4" classname="com.rippon.Class1Test" time="0"/>
+  <testcase name="skipTest" classname="com.rippon.Class1Test" time="0">
+    <skipped message="Skipping - This is not ready for testing "/>
+    <system-out><![CDATA[****skipTest
+]]></system-out>
+  </testcase>
+  <testcase name="skipTest" classname="com.rippon.Class1Test" time="0">
+    <skipped message="Skipping - This is not ready for testing "/>
+    <system-out><![CDATA[****skipTest
+]]></system-out>
+  </testcase>
+  <testcase name="skipTest" classname="com.rippon.Class1Test" time="0">
+    <skipped message="Skipping - This is not ready for testing "/>
+    <system-out><![CDATA[****skipTest
+]]></system-out>
+  </testcase>
+  <testcase name="skipTest" classname="com.rippon.Class1Test" time="0">
+    <skipped message="Skipping - This is not ready for testing "/>
+    <system-out><![CDATA[****skipTest
+]]></system-out>
+  </testcase>
+</testsuite>

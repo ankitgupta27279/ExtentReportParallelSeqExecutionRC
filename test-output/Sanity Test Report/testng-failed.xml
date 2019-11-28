@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Sanity Test Report]" parallel="tests">
+  <listeners>
+    <listener class-name="com.report.TestListeners"/>
+  </listeners>
+  <test thread-count="5" name="Firefox1(failed)">
+    <parameter name="deviceType" value="Desktop"/>
+    <parameter name="reportName" value="SanityTestReportFirefoxTest"/>
+    <parameter name="platformVersion" value="7"/>
+    <parameter name="browser" value="Firefox"/>
+    <parameter name="remoteURL" value="http://firefox1.firefox.com/"/>
+    <parameter name="platformName" value="Windows"/>
+    <parameter name="deviceName" value="LocalMachine"/>
+    <classes>
+      <class name="com.rippon.Class1Test">
+        <methods>
+          <include name="meth3"/>
+          <include name="getResult"/>
+          <include name="setExtentReport"/>
+          <include name="endAllReports"/>
+          <include name="skipTest"/>
+          <include name="initSetUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.rippon.Class1Test -->
+    </classes>
+  </test> <!-- Firefox1(failed) -->
+</suite> <!-- Failed suite [Sanity Test Report] -->
